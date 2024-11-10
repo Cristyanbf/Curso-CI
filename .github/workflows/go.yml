@@ -23,10 +23,10 @@ jobs:
 
    
     - name: build-DB
-      run: docker-compose build
+      run: docker-compose.yml build
 
     - name: create-DB
-      run: docker-compose up -d
+      run: docker-compose.yml up -d
       
 
     - name: Test
